@@ -18,3 +18,6 @@ ssh $remote "sudo mv mnna.pdf ${srv_dir}/mnna.pdf"
 
 rsync mnna.epub $remote:~
 ssh $remote "sudo mv mnna.epub ${srv_dir}/mnna.epub"
+
+rsync -r img $remote:~
+ssh $remote "sudo mv img ${srv_dir}/"
