@@ -1,11 +1,20 @@
-rsync css/style.css ec2:~
-ssh ec2 'sudo mv style.css /srv/http/hask/css/style.css'
+remote=notes
+srv_dir=/var/www/html/mnna
 
-rsync css/layout.css ec2:~
-ssh ec2 'sudo mv layout.css /srv/http/hask/css/layout.css'
+rsync css/style.css $remote:~
+ssh $remote "sudo mv style.css ${srv_dir}/css/style.css"
 
-rsync js/nav.js ec2:~
-ssh ec2 'sudo mv nav.js /srv/http/hask/nav.js'
+rsync css/layout.css $remote:~
+ssh $remote "sudo mv layout.css ${srv_dir}/css/layout.css"
 
-rsync tutorial.html ec2:~
-ssh ec2 'sudo mv tutorial.html /srv/http/hask/index.html'
+rsync js/nav.js $remote:~
+ssh $remote "sudo mv nav.js ${srv_dir}/nav.js"
+
+rsync mnna.html $remote:~
+ssh $remote "sudo mv mnna.html ${srv_dir}/index.html"
+
+rsync mnna.pdf $remote:~
+ssh $remote "sudo mv mnna.pdf ${srv_dir}/mnna.pdf"
+
+rsync mnna.epub $remote:~
+ssh $remote "sudo mv mnna.epub ${srv_dir}/mnna.epub"

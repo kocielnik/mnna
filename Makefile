@@ -9,13 +9,15 @@ FLAGS = --standalone \
 				--highlight-style pygments \
 				-c css/style.css \
 				-c css/layout.css
-GHC=ghc
+GHC=stack ghc --
 
-HTML = tutorial.html
+HTML = mnna.html
+PDF = mnna.pdf
+EPUB = mnna.epub
 
 # Check if sandbox exists. If it does, then use it instead.
 
-all: $(HTML)
+all: $(HTML) $(PDF) $(EPUB)
 
 includes: includes.hs
 	$(GHC) --make $< ; \
@@ -30,7 +32,7 @@ includes: includes.hs
 	| $(PANDOC) -f $(IFORMAT) -t epub $(FLAGS) -o $@
 
 %.pdf: %.md includes
-	./includes < $< | $(PANDOC) -c -s -f $(IFORMAT) --template $(LTEMPLATE) --latex-engine=xelatex $(FLAGS) -o $@
+	./includes < $< | $(PANDOC) -c -s -f $(IFORMAT) --template $(LTEMPLATE) --pdf-engine=xelatex $(FLAGS) -o $@
 
 clean:
 	-rm $(CHAPTERS) $(HTML)
