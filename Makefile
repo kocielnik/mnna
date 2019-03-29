@@ -35,7 +35,7 @@ includes: includes.hs
 	./includes < $< | $(PANDOC) -c -s -f $(IFORMAT) --template $(LTEMPLATE) --pdf-engine=xelatex $(FLAGS) -o $@
 
 clean:
-	-rm $(CHAPTERS) $(HTML)
+	-rm $(CHAPTERS) $(HTML) $(PDF) $(EPUB)
 
 # pandoc executable 'includes' is rather large
 clean-all:
@@ -54,3 +54,7 @@ endif
 
 shell.nix : wiwinwlh.cabal
 	cabal2nix --shell  . > shell.nix
+
+.PHONY : deploy
+deploy:
+	./deploy
