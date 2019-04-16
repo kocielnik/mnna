@@ -30,6 +30,15 @@ Changelog
 
 * Base on presentation framework from Stephen Diehl. (Thanks, Stephen!)
 
+Components
+==========
+
+The source of this book is [here](https://github.com/kocielnik/mnna).
+
+The code for this book is [here](https://gitlab.com/kocielnik/neural-network-architectures).
+
+The wider context for this book is the currently private [Advanced Drone Technology Handbook](https://gitlab.com/kocielnik/advanced_drone_technology_handbook).
+
 Basics
 ======
 
