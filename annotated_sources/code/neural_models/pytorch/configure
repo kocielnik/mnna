@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+conda create --name torch
+conda activate torch
+conda install pytorch torchvision cuda91 -c pytorch
+conda deactivate
