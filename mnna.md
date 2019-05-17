@@ -42,6 +42,10 @@ The wider context for this book is the currently private [Advanced Drone Technol
 Observations
 ============
 
+> Great minds see analogies between analogies.
+
+-- S. Banach
+
 Dreams
 ------
 
