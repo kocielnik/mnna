@@ -39,11 +39,11 @@ The code for this book is [here](https://gitlab.com/kocielnik/neural-network-arc
 
 The wider context for this book is the currently private [Advanced Drone Technology Handbook](https://gitlab.com/kocielnik/advanced_drone_technology_handbook).
 
-Basics
-======
+Observations
+============
 
 Dreams
------
+------
 
 Google Deep Dream Project, a whole gallery can be found [here](https://photos.google.com/share/AF1QipPX0SCl7OzWilt9LnuQliattX4OUCj_8EP65_cTVnBmS1jnYgsGQAieQUc1VQWdgQ?key=aVBxWjhwSzg2RjJWLWRuVFBBZEN1d205bUdEMnhB).
 
@@ -51,4 +51,13 @@ Google Deep Dream Project, a whole gallery can be found [here](https://photos.go
 
 ![](https://4.bp.blogspot.com/-PK_bEYY91cw/VYIVBYw63uI/AAAAAAAAAlo/iUsA4leua10/s1600/seurat-layout.png)
 
+# Architectures
 
+## Attention mechanisms
+
+1. OpenAI.com
+2. https://skymind.ai/wiki/attention-mechanism-memory-network
+
+## Recurrent NNs
+
+## Lottery ticket NNs
