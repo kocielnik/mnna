@@ -48,6 +48,8 @@ Observations
 
 Analogies between objects take the form of the *properties* of those objects. Analogies between analogies concern the ways those properties are formed. What form the "ways" take? They can be likened to *functions* generating object with such properties, and functions have their *derivatives*. Analogies, then, take the form of derivatives!
 
+Others talk about "mathematical beauty" or "beautiful symmetry" in mathematics. Is it not the exactly same thing they are all searching for?
+
 Dreams
 ------
 
