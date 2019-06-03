@@ -69,3 +69,8 @@ Google Deep Dream Project, a whole gallery can be found [here](https://photos.go
 ## Recurrent NNs
 
 ## Lottery ticket NNs
+
+# Automatic generation 
+
+https://en.wikipedia.org/wiki/Neural_architecture_search
+
