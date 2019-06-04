@@ -50,14 +50,29 @@ Analogies between objects take the form of the *properties* of those objects. An
 
 Others talk about "mathematical beauty" or "beautiful symmetry" in mathematics. Is it not the exactly same thing they are all searching for?
 
-Dreams
-------
+## Dreams
 
 Google Deep Dream Project, a whole gallery can be found [here](https://photos.google.com/share/AF1QipPX0SCl7OzWilt9LnuQliattX4OUCj_8EP65_cTVnBmS1jnYgsGQAieQUc1VQWdgQ?key=aVBxWjhwSzg2RjJWLWRuVFBBZEN1d205bUdEMnhB).
 
 ![](https://3.bp.blogspot.com/-4Uj3hPFupok/VYIT6s_c9OI/AAAAAAAAAlc/_yGdbbsmGiw/s1600/ibis.png)
 
 ![](https://4.bp.blogspot.com/-PK_bEYY91cw/VYIVBYw63uI/AAAAAAAAAlo/iUsA4leua10/s1600/seurat-layout.png)
+
+## Language models
+
+> We’ve trained a large-scale unsupervised language model which generates coherent paragraphs of text, achieves state-of-the-art performance on many language modeling benchmarks, and performs rudimentary reading comprehension, machine translation, question answering, and summarization—all without task-specific training.
+>
+> Our model, called GPT-2 (a successor to GPT), was trained simply to predict the next word in 40GB of Internet text. 
+
+-- https://openai.com/blog/better-language-models/
+
+> However, Pérez also pointed out that it is likely that the only way of knowing for sure if unicorns are indeed the descendants of a lost alien race is through DNA. “But they seem to be able to communicate in English quite well, which I believe is a sign of evolution, or at least a change in social organization,” said the scientist.
+
+-- Machine-generated output, https://openai.com/blog/better-language-models/
+
+> As the above samples show, our model is capable of generating samples from a variety of prompts that feel close to human quality and show coherence over a page or more of text. Nevertheless, we have observed various failure modes, such as repetitive text, world modeling failures (e.g. the model sometimes writes about fires happening under water), and unnatural topic switching. Exploring these types of weaknesses of language models is an active area of research in the natural language processing community.
+
+-- On the results of research, https://openai.com/blog/better-language-models/
 
 # Architectures
 
