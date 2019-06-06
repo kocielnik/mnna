@@ -14,8 +14,9 @@ asking permission.
 
 You may copy and paste any code here verbatim into your codebase, wiki, blog,
 book or Haskell musical production as you see fit. The Markdown and Haskell
-source is [available on Github](https://github.com/kocielnik/mnna). Pull requests are
-welcome for changes and additional content. This is a living document.
+source is [available on Github](https://github.com/kocielnik/mnna). Pull
+requests are welcome for changes and additional content. This is a living
+document.
 
 Pocket Versions
 ---------------
@@ -37,7 +38,19 @@ The source of this book is [here](https://github.com/kocielnik/mnna).
 
 The code for this book is [here](https://gitlab.com/kocielnik/neural-network-architectures).
 
-The wider context for this book is the currently private [Advanced Drone Technology Handbook](https://gitlab.com/kocielnik/advanced_drone_technology_handbook).
+The wider context for this book is the currently private
+[Advanced Drone Technology Handbook](https://gitlab.com/kocielnik/advanced_drone_technology_handbook).
+
+# Book organization
+
+This book is composed of 12 exercises done with neural networks - from the most
+basic experiments with binary neural nets, to one-shot image content
+recognition.
+
+The key aspect of those experiments will be the input that is needed for them
+to work, the output they generate, and comparative analysis of the output with
+what we may encounter in the everyday world, to which we will also refer to
+under the name "nature".
 
 Observations
 ============
@@ -46,7 +59,11 @@ Observations
 
 -- S. Banach
 
-Analogies between objects take the form of the *properties* of those objects. Analogies between analogies concern the ways those properties are formed. What form the "ways" take? They can be likened to *functions* generating object with such properties, and functions have their *derivatives*. Analogies, then, take the form of derivatives!
+Analogies between objects take the form of the *properties* of those objects.
+Analogies between analogies concern the ways those properties are formed. What
+form the "ways" take? They can be likened to *functions* generating object with
+such properties, and functions have their *derivatives*. Analogies, then, take
+the form of derivatives!
 
 Others talk about "mathematical beauty" or "beautiful symmetry" in mathematics. Is it not the exactly same thing they are all searching for?
 
