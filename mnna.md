@@ -75,6 +75,8 @@ Google Deep Dream Project, a whole gallery can be found [here](https://photos.go
 
 ![](https://4.bp.blogspot.com/-PK_bEYY91cw/VYIVBYw63uI/AAAAAAAAAlo/iUsA4leua10/s1600/seurat-layout.png)
 
+Mathematically, is a neural network model anything else than just a combination of instantaneous map and reduce operations?
+
 ## Language models
 
 > We’ve trained a large-scale unsupervised language model which generates coherent paragraphs of text, achieves state-of-the-art performance on many language modeling benchmarks, and performs rudimentary reading comprehension, machine translation, question answering, and summarization—all without task-specific training.
