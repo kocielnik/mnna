@@ -75,7 +75,9 @@ Google Deep Dream Project, a whole gallery can be found [here](https://photos.go
 
 ![](https://4.bp.blogspot.com/-PK_bEYY91cw/VYIVBYw63uI/AAAAAAAAAlo/iUsA4leua10/s1600/seurat-layout.png)
 
-Mathematically, is a neural network model anything else than just a combination of instantaneous map and reduce operations?
+Mathematically, is a neural network model anything else than just a combination of instantaneous map and reduce operations? See [^map_reduce].
+
+[^map_reduce]: Chu, "Map-Reduce for Machine Learning on Multicore", 2006
 
 ## Language models
 
