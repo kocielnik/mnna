@@ -110,3 +110,12 @@ Mathematically, is a neural network model anything else than just a combination 
 
 https://en.wikipedia.org/wiki/Neural_architecture_search
 
+# Understanding the quantum world
+
+> Imagine if all our scientific theories and models told us only about averages: if the best weather forecasts could only give you the average daily amount of rain expected over the next month, or if astronomers could only predict the average time between solar eclipses.
+>
+> In the early days of quantum mechanics, that seemed to be its inevitable limitation: It was a probabilistic theory, telling us only what we will observe on average if we collect records for many events or particles. To Erwin Schrödinger, whose eponymous equation prescribes how quantum objects behave, it was utterly meaningless to think about specific atoms or electrons doing things in real time.
+
+-- How "God does not play dice" after all, https://www.quantamagazine.org/how-quantum-trajectory-theory-lets-physicists-understand-whats-going-on-during-wave-function-collapse-20190703/
+
+
