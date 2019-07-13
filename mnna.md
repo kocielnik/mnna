@@ -140,5 +140,15 @@ Google Deep Dream Project, a whole gallery can be found [here](https://photos.go
 
 ## Lottery ticket NNs
 
+# Experiments
+
+## Can a neural network recognize handwriting?
+
+> It’s possible that the glass AI could eventually be used as a kind of “biometric lock”, he says. Individual glass AIs could be used for specific tasks, such as recognising a person’s face. “You will have lots of little, inexpensive, disposable smart things that work under extremely tight energy, bandwidth, and dollar budgets,” he says.
+
+![](https://images.newscientist.com/wp-content/uploads/2019/07/08113114/205390-1.jpg)
+
+-- https://www.newscientist.com/article/2208975-ai-made-from-a-sheet-of-glass-can-recognise-numbers-just-by-looking/
+
 # Automatic generation 
 
