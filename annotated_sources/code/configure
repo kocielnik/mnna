@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+# sudo apt install cabal-install
+
+cabal update
+cabal install happy
+cabal install haskell-src-exts
+cabal install ihaskell
+
+stack install ansi-terminal markdown-unlit
+
+# See https://github.com/bashup/mdsh#installation for
+# portable literate Bash.

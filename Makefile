@@ -58,3 +58,6 @@ shell.nix : wiwinwlh.cabal
 .PHONY : deploy
 deploy:
 	./deploy
+
+xed:
+	vim +"Voom pandoc" mnna.md

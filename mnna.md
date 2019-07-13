@@ -84,6 +84,17 @@ Similar research around the globe
 Basics
 ======
 
+Observations
+============
+
+> Great minds see analogies between analogies.
+
+-- S. Banach
+
+Analogies between objects take the form of the *properties* of those objects. Analogies between analogies concern the ways those properties are formed. What form the "ways" take? They can be likened to *functions* generating object with such properties, and functions have their *derivatives*. Analogies, then, take the form of derivatives!
+
+Others talk about "mathematical beauty" or "beautiful symmetry" in mathematics. Is it not the exactly same thing they are all searching for?
+
 Here, we explore different artifacts in the area of reproducing human cognition, together with their "creations" (that should be rather called "compositions" for better clarity), and how they relate to human performance in qualitative and quantitative aspects.
 
 The graphic lambda calculus notation used in the discussion of the networks is based on the model by Alan Turing from 1948, as mentioned [here](https://chorasimilarity.wordpress.com/2013/06/26/teaser-b-type-neural-networks-in-graphic-lambda-calculus-i/). The original technical report of Turing is available [here](http://www.alanturing.net/turing_archive/archive/l/l32/L32-001.html).
@@ -110,7 +121,7 @@ A deep neural network model has been created by OpenAI. The model has been calle
 [^openai_musenet]: https://openai.com/blog/musenet/
 
 Dreams
------
+------
 
 Google Deep Dream Project, a whole gallery can be found [here](https://photos.google.com/share/AF1QipPX0SCl7OzWilt9LnuQliattX4OUCj_8EP65_cTVnBmS1jnYgsGQAieQUc1VQWdgQ?key=aVBxWjhwSzg2RjJWLWRuVFBBZEN1d205bUdEMnhB).
 
@@ -118,4 +129,16 @@ Google Deep Dream Project, a whole gallery can be found [here](https://photos.go
 
 ![](https://4.bp.blogspot.com/-PK_bEYY91cw/VYIVBYw63uI/AAAAAAAAAlo/iUsA4leua10/s1600/seurat-layout.png)
 
+# Architectures
+
+## Attention mechanisms
+
+1. OpenAI.com
+2. https://skymind.ai/wiki/attention-mechanism-memory-network
+
+## Recurrent NNs
+
+## Lottery ticket NNs
+
+# Automatic generation 
 
