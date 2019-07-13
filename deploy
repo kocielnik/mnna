@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 remote=notes
 srv_dir=/var/www/html/mnna
 
