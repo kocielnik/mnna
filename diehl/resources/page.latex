@@ -210,8 +210,8 @@ $endif$
 \begin{titlepage}
    \vspace*{\stretch{1.0}}
    \begin{center}
-      \Large\textbf{What I Wish I Knew When Learning Haskell}\\
-      \large\textit{Stephen Diehl}
+      \Large\textbf{Modern Neural Network Architectures}\\
+      \large\textit{Patryk Kocielnik}
    \end{center}
    \vspace*{\stretch{2.0}}
 \end{titlepage}
