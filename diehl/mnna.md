@@ -52,6 +52,80 @@ to work, the output they generate, and comparative analysis of the output with
 what we may encounter in the everyday world, to which we will also refer to
 under the name "nature".
 
+Introduction
+==============
+
+I am currently searching for a way to explore how human cognition and origins
+work, through empirical studies and quantitative comparison.
+
+> Our main goal is developing a computationally based understanding of human
+> intelligence and establishing an engineering practice based on that
+> understanding.
+
+-- Tagline of the research group Center for Brains, Minds and Machines of
+CSAIL, MIT,
+[website](https://www.csail.mit.edu/research/center-brains-minds-and-machines#projects)
+
+This lies in accordance with the goals of the Center for Brains, Minds and
+Machines research group on MIT, whose tagline is quoted above.
+
+The Center for Brains, Minds and Machines posts a part of its know-how
+publically on-line under the address [^github_cbmm].
+
+[^github_cbmm]: [CBMM on GitHub](https://github.com/CBMM)
+
+> [This course series] is designed to help you learn about progress toward the
+> scientific goal of understanding human intelligence from a computational
+> point of view. The foundations for 6.xxx were developed by a group that
+> styles itself as The Human Intelligence Enterprise, from which this subject
+> draws its name.
+
+-- [^mit_ocw_human-intelligence]
+
+[^mit_ocw_human-intelligence]: [The Human Intelligence Enterprise, Electrical
+Engineering and Computer Science faculty,
+MIT](http://ocw2.mit.edu/courses/electrical-engineering-and-computer-science/6-803-the-human-intelligence-enterprise-spring-2006/syllabus/)
+
+> You should take 6.xxx if you want to learn about the enterprise of explaining
+> intelligence from a computational point of view. When you have finished the
+> subject, you will understand the powerful ideas behind an optimistic view of
+> what will be discovered in the next decade.
+
+-- [^mit_ocw_human-intelligence]
+
+> Upon completion of 6.034, students should be able to develop intelligent
+> systems by assembling solutions to concrete computational problems;
+> understand the role of knowledge representation, problem solving, and
+> learning in intelligent-system engineering; and appreciate the role of
+> problem solving, vision, and language in understanding human intelligence
+> from a computational perspective.
+
+-- [^mit_artificial-intelligence_2010]: MIT OCW course card [Artificial
+Intelligence](http://ocw2.mit.edu/courses/electrical-engineering-and-computer-science/6-034-artificial-intelligence-fall-2010/)
+
+Similar research around the globe
+
+> There is a golden opportunity within reach, the kind of opportunity that
+> comes along just a few times in a century. That opportunity is to bring
+> together people dedicated to understanding human intelligence from the neuron
+> level up to the manifestation of behavior.
+
+-- The Human Intelligence Enterprise manifesto, MIT [^hie]
+
+[^hie]:[The Human Intelligence Enterprise,
+MIT](http://groups.csail.mit.edu/genesis/HIE/)
+
+> We are on the verge of discoveries about human intelligence that are as
+> important to understanding the way we think as the discovery of the structure
+> of DNA was to molecular biology. Such discoveries can be made only once in
+> the history of our species. We believe they can be made during the coming
+> decade. 
+
+-- The Human Intelligence Enterprise manifesto, MIT [^hie]
+
+Basics
+======
+
 Observations
 ============
 
@@ -65,29 +139,94 @@ form the "ways" take? They can be likened to *functions* generating object with
 such properties, and functions have their *derivatives*. Analogies, then, take
 the form of derivatives!
 
-Others talk about "mathematical beauty" or "beautiful symmetry" in mathematics. Is it not the exactly same thing they are all searching for?
+Others talk about "mathematical beauty" or "beautiful symmetry" in mathematics.
+Is it not the exactly same thing they are all searching for?
 
 ## Dreams
 
-Google Deep Dream Project, a whole gallery can be found [here](https://photos.google.com/share/AF1QipPX0SCl7OzWilt9LnuQliattX4OUCj_8EP65_cTVnBmS1jnYgsGQAieQUc1VQWdgQ?key=aVBxWjhwSzg2RjJWLWRuVFBBZEN1d205bUdEMnhB).
+Here, we explore different artifacts in the area of reproducing human
+cognition, together with their "creations" (that should be rather called
+"compositions" for better clarity), and how they relate to human performance in
+qualitative and quantitative aspects.
+
+The graphic lambda calculus notation used in the discussion of the networks is
+based on the model by Alan Turing from 1948, as mentioned
+[here](https://chorasimilarity.wordpress.com/2013/06/26/teaser-b-type-neural-networks-in-graphic-lambda-calculus-i/).
+The original technical report of Turing is available
+[here](http://www.alanturing.net/turing_archive/archive/l/l32/L32-001.html).
+
+> The distinctive property of deep learning is that it studies deep neural
+> networks – neural networks with many layers. Over the course of multiple
+> layers, these models progressively bend data, warping it into a form where it
+> is easy to solve the given task.
+
+-- Christopher Olah,
+[blog](https://colah.github.io/posts/2015-09-NN-Types-FP/), 2015
+
+Notation
+--------
+
+Leibniz had as ideal the following.
+
+1. Create a ‘universal language’ in which all possible problems can be stated.
+2. Find a decision method to solve all the problems stated in the universal
+   language.
+
+These are cited after the Introduction to Lambda Calculus available
+[here](https://www.researchgate.net/profile/Henk_hendrik_Barendregt/publication/215458960_Introduction_to_lambda_calculus/links/004635182bdcc3df8e000000/Introduction-to-lambda-calculus.pdf?origin=publication_detail).
+
+Music -----
+
+A deep neural network model has been created by OpenAI. The model has been
+called MuseNet and is able to generate 4-minute musical compositions with 10
+different instruments. MuseNet can imitate the styles from country to the
+Beatles to Mozart [^openai_musenet].
+
+[^openai_musenet]: https://openai.com/blog/musenet/
+
+Dreams
+------
+
+Google Deep Dream Project, a whole gallery can be found
+[here](https://photos.google.com/share/AF1QipPX0SCl7OzWilt9LnuQliattX4OUCj_8EP65_cTVnBmS1jnYgsGQAieQUc1VQWdgQ?key=aVBxWjhwSzg2RjJWLWRuVFBBZEN1d205bUdEMnhB).
 
 ![](https://3.bp.blogspot.com/-4Uj3hPFupok/VYIT6s_c9OI/AAAAAAAAAlc/_yGdbbsmGiw/s1600/ibis.png)
 
 ![](https://4.bp.blogspot.com/-PK_bEYY91cw/VYIVBYw63uI/AAAAAAAAAlo/iUsA4leua10/s1600/seurat-layout.png)
 
+Mathematically, is a neural network model anything else than just a combination
+of instantaneous map and reduce operations? See [^map_reduce].
+
+[^map_reduce]: Chu, "Map-Reduce for Machine Learning on Multicore", 2006
+
 ## Language models
 
-> We’ve trained a large-scale unsupervised language model which generates coherent paragraphs of text, achieves state-of-the-art performance on many language modeling benchmarks, and performs rudimentary reading comprehension, machine translation, question answering, and summarization—all without task-specific training.
+> We’ve trained a large-scale unsupervised language model which generates
+> coherent paragraphs of text, achieves state-of-the-art performance on many
+> language modeling benchmarks, and performs rudimentary reading comprehension,
+> machine translation, question answering, and summarization—all without
+> task-specific training.
 >
-> Our model, called GPT-2 (a successor to GPT), was trained simply to predict the next word in 40GB of Internet text. 
+> Our model, called GPT-2 (a successor to GPT), was trained simply to predict
+> the next word in 40GB of Internet text. 
 
 -- https://openai.com/blog/better-language-models/
 
-> However, Pérez also pointed out that it is likely that the only way of knowing for sure if unicorns are indeed the descendants of a lost alien race is through DNA. “But they seem to be able to communicate in English quite well, which I believe is a sign of evolution, or at least a change in social organization,” said the scientist.
+> However, Pérez also pointed out that it is likely that the only way of
+> knowing for sure if unicorns are indeed the descendants of a lost alien race
+> is through DNA. “But they seem to be able to communicate in English quite
+> well, which I believe is a sign of evolution, or at least a change in social
+> organization,” said the scientist.
 
 -- Machine-generated output, https://openai.com/blog/better-language-models/
 
-> As the above samples show, our model is capable of generating samples from a variety of prompts that feel close to human quality and show coherence over a page or more of text. Nevertheless, we have observed various failure modes, such as repetitive text, world modeling failures (e.g. the model sometimes writes about fires happening under water), and unnatural topic switching. Exploring these types of weaknesses of language models is an active area of research in the natural language processing community.
+> As the above samples show, our model is capable of generating samples from a
+> variety of prompts that feel close to human quality and show coherence over a
+> page or more of text. Nevertheless, we have observed various failure modes,
+> such as repetitive text, world modeling failures (e.g. the model sometimes
+> writes about fires happening under water), and unnatural topic switching.
+> Exploring these types of weaknesses of language models is an active area of
+> research in the natural language processing community.
 
 -- On the results of research, https://openai.com/blog/better-language-models/
 
@@ -102,7 +241,38 @@ Google Deep Dream Project, a whole gallery can be found [here](https://photos.go
 
 ## Lottery ticket NNs
 
+# Experiments
+
+## Can a neural network recognize handwriting?
+
+> It’s possible that the glass AI could eventually be used as a kind of
+> “biometric lock”, he says. Individual glass AIs could be used for specific
+> tasks, such as recognising a person’s face. “You will have lots of little,
+> inexpensive, disposable smart things that work under extremely tight energy,
+> bandwidth, and dollar budgets,” he says.
+
+![](https://images.newscientist.com/wp-content/uploads/2019/07/08113114/205390-1.jpg)
+
+--
+https://www.newscientist.com/article/2208975-ai-made-from-a-sheet-of-glass-can-recognise-numbers-just-by-looking/
+
 # Automatic generation 
 
-https://en.wikipedia.org/wiki/Neural_architecture_search
+# Understanding the quantum world
+
+> Imagine if all our scientific theories and models told us only about
+> averages: if the best weather forecasts could only give you the average daily
+> amount of rain expected over the next month, or if astronomers could only
+> predict the average time between solar eclipses.
+>
+> In the early days of quantum mechanics, that seemed to be its inevitable
+> limitation: It was a probabilistic theory, telling us only what we will
+> observe on average if we collect records for many events or particles. To
+> Erwin Schrödinger, whose eponymous equation prescribes how quantum objects
+> behave, it was utterly meaningless to think about specific atoms or electrons
+> doing things in real time.
+
+-- How "God does not play dice" after all,
+https://www.quantamagazine.org/how-quantum-trajectory-theory-lets-physicists-understand-whats-going-on-during-wave-function-collapse-20190703/
+
 
