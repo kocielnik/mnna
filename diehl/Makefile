@@ -19,7 +19,7 @@ EPUB = mnna.epub
 all: $(HTML) $(PDF) $(EPUB)
 
 %.html: %.md
-	$(PANDOC) --template $(TEMPLATE) -s -f $(IFORMAT) -t html $(FLAGS) \
+	$(PANDOC) --template $(TEMPLATE) -s -f $(IFORMAT) -t html $(FLAGS) $(in) \
 	| sed '/<extensions>/r extensions.html' > $@
 
 %.epub: %.md
