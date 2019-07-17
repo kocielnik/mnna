@@ -123,8 +123,26 @@ MIT](http://groups.csail.mit.edu/genesis/HIE/)
 
 -- The Human Intelligence Enterprise manifesto, MIT [^hie]
 
-Basics
-======
+Basic properties
+================
+
+> One of the most striking facts about neural networks is that they can compute any function at all. That is, suppose someone hands you some complicated, wiggly function, f(x), no matter what the function, there is guaranteed to be a neural network so that for every possible input, xx, the value f(x)f(x) (or some close approximation) is output from the network.
+
+-- On the versatility of neural network models, Michael Nielsen, [A visual proof that neural nets can compute any function](http://neuralnetworksanddeeplearning.com/chap4.html)
+
+Algorithms
+==========
+
+## Back-propagation
+
+> The backpropagation algorithm was originally introduced in the 1970s, but its importance wasn't fully appreciated until a famous 1986 paper by David Rumelhart, Geoffrey Hinton, and Ronald Williams.
+
+-- On the origins of the back-propagation algorithm, Michael Nielsen, [How the backpropagation algorithm works](http://neuralnetworksanddeeplearning.com/chap2.html)
+
+> We describe a new learning procedure, back-propagation, for networks of neurone-like units. The procedure repeatedly adjusts the weights of the connections in the network so as to minimize a measure of the difference between the actual output vector of the net and the desired output vector. As a result of the weight adjustments, internal ‘hidden’ units which are not part of the input or output come to represent important features of the task domain, and the regularities in the task are captured by the interactions of these units. The ability to create useful new features distinguishes back-propagation from earlier, simpler methods such as the perceptron-convergence procedure.
+
+-- [Learning representations by back-propagating errors
+](https://www.nature.com/articles/323533a0)
 
 Observations
 ============
