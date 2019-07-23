@@ -293,4 +293,9 @@ https://www.newscientist.com/article/2208975-ai-made-from-a-sheet-of-glass-can-r
 -- How "God does not play dice" after all,
 https://www.quantamagazine.org/how-quantum-trajectory-theory-lets-physicists-understand-whats-going-on-during-wave-function-collapse-20190703/
 
+# MRCNN
+
+> Deep convolutional neural networks (DCNNs) perform on par or better than humans for image classification. Hence efforts have now shifted to more challenging tasks such as object detection and classification in images, video or RGBD.
+
+-- Philippe Burlina, [MRCNN](https://ieeexplore.ieee.org/abstract/document/7900179)
 
