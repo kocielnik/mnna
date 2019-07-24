@@ -309,3 +309,5 @@ https://www.quantamagazine.org/how-quantum-trajectory-theory-lets-physicists-und
 
 -- Marco Tavora, FreeCodeCamp, [src](https://www.freecodecamp.org/news/connections-between-deep-learning-physics-and-pure-mathematics-part-i-947abeb3a5dd/)
 
+We begin our analysis by establishing a simple neural net with the instructions from [Stanford Crypto](https://crypto.stanford.edu/~blynn/haskell/brain.html). The multi-line mode in GHC is activated with the command `:set +m`.
+
