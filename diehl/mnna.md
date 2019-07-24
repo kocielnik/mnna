@@ -299,3 +299,13 @@ https://www.quantamagazine.org/how-quantum-trajectory-theory-lets-physicists-und
 
 -- Philippe Burlina, [MRCNN](https://ieeexplore.ieee.org/abstract/document/7900179)
 
+# Analyzing a simple neural network
+
+> [The method of mathematical reason would] “…enable[s] one to infer results about experiments that have not been performed. There is no logical reason why the […] method should be possible at all, but one has found in practice that it does work and meets with reasonable success. This must be ascribed to some mathematical quality in Nature, a quality which the casual observer of Nature would not suspect, but which nevertheless plays an important role in Nature’s scheme.”
+
+-- Paul Dirac, 1939, [src](https://www.freecodecamp.org/news/connections-between-deep-learning-physics-and-pure-mathematics-part-i-947abeb3a5dd/)
+
+> There are many examples in history where purely abstract mathematical concepts eventually led to powerful applications way beyond the context in which they were developed. This article is about one of those examples.
+
+-- Marco Tavora, FreeCodeCamp, [src](https://www.freecodecamp.org/news/connections-between-deep-learning-physics-and-pure-mathematics-part-i-947abeb3a5dd/)
+
