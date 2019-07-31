@@ -133,6 +133,12 @@ Basic properties
 Algorithms
 ==========
 
+## Bayesian filtering
+
+> Bayesian filter is one of the fundamental approach to estimate the distribution in a process where there is incoming measurements. It used to be widely used in localization problems in robotics.
+
+-- https://leimao.github.io/article/Introduction-to-Bayesian-Filter/
+
 ## Back-propagation
 
 > The backpropagation algorithm was originally introduced in the 1970s, but its importance wasn't fully appreciated until a famous 1986 paper by David Rumelhart, Geoffrey Hinton, and Ronald Williams.
