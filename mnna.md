@@ -6,6 +6,9 @@ Patryk Kocielnik (<a class="author" href="https://kocielnik.pl">kocielnik.pl</a>
 
 This is the first draft of this document.
 
+From the publisher
+------------------
+
 #### License
 
 This code and text are dedicated to the public domain. You can copy, modify,
@@ -69,3 +72,8 @@ Google Deep Dream Project, a whole gallery can be found [here](https://photos.go
 ## Recurrent NNs
 
 ## Lottery ticket NNs
+
+# Sources
+
+1. https://github.com/alexlenail/NN-SVG
+

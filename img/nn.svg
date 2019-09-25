@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="289.67575"
+   height="217.19609"
+   version="1.1"
+   id="svg40"
+   sodipodi:docname="nn.svg"
+   inkscape:version="0.92.4 (unknown)">
+  <metadata
+     id="metadata44">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="882"
+     inkscape:window-height="699"
+     id="namedview42"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="1.5399674"
+     inkscape:cx="124.08623"
+     inkscape:cy="66.023673"
+     inkscape:window-x="2196"
+     inkscape:window-y="95"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg40" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path2"
+     style="stroke:#505050;stroke-width:0.5;stroke-opacity:1"
+     d="m 33.82225,70.5 180,-60"
+     class="link" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path4"
+     style="stroke:#505050;stroke-width:0.5;stroke-opacity:1"
+     d="m 33.82225,70.5 180,-20"
+     class="link" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path6"
+     style="stroke:#505050;stroke-width:0.5;stroke-opacity:1"
+     d="m 33.82225,70.5 180,20"
+     class="link" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path8"
+     style="stroke:#505050;stroke-width:0.5;stroke-opacity:1"
+     d="m 33.82225,70.5 180,60"
+     class="link" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path10"
+     style="stroke:#505050;stroke-width:0.5;stroke-opacity:1"
+     d="m 33.82225,70.5 180,100"
+     class="link" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path12"
+     style="stroke:#505050;stroke-width:0.5;stroke-opacity:1"
+     d="m 33.82225,110.5 180,-100"
+     class="link" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path14"
+     style="stroke:#505050;stroke-width:0.5;stroke-opacity:1"
+     d="m 33.82225,110.5 180,-60"
+     class="link" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path16"
+     style="stroke:#505050;stroke-width:0.5;stroke-opacity:1"
+     d="m 33.82225,110.5 180,-20"
+     class="link" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path18"
+     style="stroke:#505050;stroke-width:0.5;stroke-opacity:1"
+     d="m 33.82225,110.5 180,20"
+     class="link" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path20"
+     style="stroke:#505050;stroke-width:0.5;stroke-opacity:1"
+     d="m 33.82225,110.5 180,60"
+     class="link" />
+  <circle
+     style="fill:#ffffff;stroke:#333333"
+     cy="70.5"
+     cx="33.822262"
+     id="0_0"
+     class="node"
+     r="10" />
+  <circle
+     style="fill:#ffffff;stroke:#333333"
+     cy="110.5"
+     cx="33.822262"
+     id="0_1"
+     class="node"
+     r="10" />
+  <circle
+     style="fill:#ffffff;stroke:#333333"
+     cy="10.5"
+     cx="213.82224"
+     id="1_0"
+     class="node"
+     r="10" />
+  <circle
+     style="fill:#ffffff;stroke:#333333"
+     cy="50.5"
+     cx="213.82224"
+     id="1_1"
+     class="node"
+     r="10" />
+  <circle
+     style="fill:#ffffff;stroke:#333333"
+     cy="90.5"
+     cx="213.82224"
+     id="1_2"
+     class="node"
+     r="10" />
+  <circle
+     style="fill:#ffffff;stroke:#333333"
+     cy="130.5"
+     cx="213.82224"
+     id="1_3"
+     class="node"
+     r="10" />
+  <circle
+     style="fill:#ffffff;stroke:#333333"
+     cy="170.5"
+     cx="213.82224"
+     id="1_4"
+     class="node"
+     r="10" />
+  <defs
+     id="defs38">
+    <marker
+       id="arrow"
+       viewBox="0 -5 10 10"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       refX="40">
+      <path
+         d="M 0,-5 10,0 0,5"
+         style="fill:none;stroke:#505050"
+         id="path35"
+         inkscape:connector-curvature="0" />
+    </marker>
+  </defs>
+</svg>
