@@ -1,5 +1,5 @@
 #!/usr/bin/env stack
--- stack --install-ghc --resolver lts-14.17 script
+-- stack --install-ghc --resolver lts-12.26 script
 
 -- Source: http://www-cs-students.stanford.edu/~blynn/haskell/brain.html
 
