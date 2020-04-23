@@ -73,3 +73,6 @@ Google Deep Dream Project, a whole gallery can be found
 
 1. https://github.com/alexlenail/NN-SVG
 
+# References
+
+[fastai]: https://course.fast.ai/
