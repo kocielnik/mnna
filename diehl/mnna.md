@@ -6,7 +6,9 @@ Patryk Kocielnik (<a class="author" href="https://kocielnik.pl">kocielnik.pl</a>
 
 This is the first draft of this document.
 
-#### License
+# From the publisher
+
+## License
 
 This code and text are dedicated to the public domain. You can copy, modify,
 distribute and perform the work, even for commercial purposes, all without
@@ -18,28 +20,24 @@ source is [available on Github](https://github.com/kocielnik/mnna). Pull
 requests are welcome for changes and additional content. This is a living
 document.
 
-Pocket Versions
----------------
+## Pocket Versions
 
 **[PDF Version](http://mnna.kocielnik.pl/mnna.pdf)**
 **[EPUB Version](http://mnna.kocielnik.pl/mnna.epub)**
 
-Changelog
----------
+## Changelog
 
 **0.1**
 
 * Base on presentation framework from Stephen Diehl. (Thanks, Stephen!)
 
-Components
-==========
+## Components
 
 The source of this book is [here](https://github.com/kocielnik/mnna).
 
 The code for this book is [here](https://gitlab.com/kocielnik/neural-network-architectures).
 
-The wider context for this book is the currently private
-[Advanced Drone Technology Handbook](https://gitlab.com/kocielnik/advanced_drone_technology_handbook).
+The wider context for this book is the currently private [Advanced Drone Technology Handbook](https://gitlab.com/kocielnik/advanced_drone_technology_handbook).
 
 # Book organization
 
@@ -265,6 +263,13 @@ of instantaneous map and reduce operations? See [^map_reduce].
 
 ## Lottery ticket NNs
 
+# Sources
+
+1. https://github.com/alexlenail/NN-SVG
+
+# References
+
+[fastai]: https://course.fast.ai/
 # Experiments
 
 ## Can a neural network recognize handwriting?
