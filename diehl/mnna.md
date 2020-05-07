@@ -322,3 +322,12 @@ https://www.quantamagazine.org/how-quantum-trajectory-theory-lets-physicists-und
 
 We begin our analysis by establishing a simple neural net with the instructions from [Stanford Crypto](https://crypto.stanford.edu/~blynn/haskell/brain.html). The multi-line mode in GHC is activated with the command `:set +m`.
 
+# Learning
+
+> You might be surprised by what you don’t need to become a top deep learning practitioner. You need one year of coding experience, a GPU and appropriate software (see below), and that’s it. You don’t need much data, you don’t need university-level math, and you don’t need a giant data center.
+
+‒ "Practical Deep Learning for Coders v. 3", Fast.AI course, [source](https://course.fast.ai/)
+
+## 1. Image classification
+
+See [Fast.AI lesson 1](https://course.fast.ai/videos/?lesson=1).
