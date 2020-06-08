@@ -59,4 +59,4 @@ deploy:
 	./deploy
 
 xed:
-	vim +"Voom pandoc" mnna.md
+	vim +"Voom pandoc" ../mnna.md
