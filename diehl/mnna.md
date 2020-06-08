@@ -4,18 +4,21 @@
 
 Draft version 0.7.0.
 
-# Book organization
+# Accompanying resources and available formats
 
-This book is composed of 12 exercises done with neural networks - from the most
-basic experiments with binary neural nets, to one-shot image content
-recognition.
+Download this book in: [PDF](http://mnna.kocielnik.pl/mnna.pdf), and
+[EPUB](http://mnna.kocielnik.pl/mnna.epub).
 
-The key aspect of those experiments will be the input that is needed for them
-to work, the output they generate, and comparative analysis of the output with
-what we may encounter in the everyday world, to which we will also refer to
-under the name "nature".
+For the manuscript and source code of this book, visit [this
+address](https://github.com/kocielnik/mnna). For source code accompanying this
+book, visit [this
+location](https://gitlab.com/kocielnik/neural-network-architectures).
 
-# Introduction
+The wider context for this book is the currently private [Advanced Drone
+Technology
+Handbook](https://gitlab.com/kocielnik/advanced_drone_technology_handbook).
+
+# Goal
 
 I am currently searching for a way to explore how human cognition and origins
 work, through empirical studies and quantitative comparison.
@@ -84,7 +87,18 @@ Similar research around the globe
 
 -- The Human Intelligence Enterprise manifesto, MIT [^hie]
 
-# Basic properties
+# Content
+
+This book includes 12 neural network-related exercises done and discussed. You
+will start from the most basic experiments with binary neural nets. In the end,
+you will learn about one-shot object recognition from images.
+
+The key aspect of those experiments will be the input that is needed for them
+to work, the output they generate, and comparative analysis of the output with
+what we may encounter in the everyday world, to which we will also refer to
+under the name "nature".
+
+# Introduction - Why neural networks
 
 > One of the most striking facts about neural networks is that they can compute
 > any function at all. That is, suppose someone hands you some complicated,
@@ -95,6 +109,53 @@ Similar research around the globe
 -- On the versatility of neural network models, Michael Nielsen, [A visual
 proof that neural nets can compute any
 function](http://neuralnetworksanddeeplearning.com/chap4.html)
+
+Statistical thinking enables us to see patterns we would never see otherwise.
+
+> Imagine if all our scientific theories and models told us only about
+> averages: if the best weather forecasts could only give you the average daily
+> amount of rain expected over the next month, or if astronomers could only
+> predict the average time between solar eclipses.
+>
+> In the early days of quantum mechanics, that seemed to be its inevitable
+> limitation: It was a probabilistic theory, telling us only what we will
+> observe on average if we collect records for many events or particles. To
+> Erwin Schrödinger, whose eponymous equation prescribes how quantum objects
+> behave, it was utterly meaningless to think about specific atoms or electrons
+> doing things in real time.
+
+-- How "God does not play dice" after all [^quanta_trajectory_theory]
+
+> Great minds see analogies between analogies.
+
+-- S. Banach
+
+Analogies between objects take the form of the *properties* of those objects.
+Analogies between analogies concern the ways those properties are formed. What
+form the "ways" take? They can be likened to *functions* generating object with
+such properties, and functions have their *derivatives*. Analogies, then, take
+the form of derivatives!
+
+Others talk about "mathematical beauty" or "beautiful symmetry" in mathematics.
+Is it not the exactly same thing they are all searching for?
+
+> [The method of mathematical reason would] “…enable[s] one to infer results
+> about experiments that have not been performed. There is no logical reason
+> why the […] method should be possible at all, but one has found in practice
+> that it does work and meets with reasonable success. This must be ascribed to
+> some mathematical quality in Nature, a quality which the casual observer of
+> Nature would not suspect, but which nevertheless plays an important role in
+> Nature’s scheme.”
+
+-- Paul Dirac, 1939,
+[src](https://www.freecodecamp.org/news/connections-between-deep-learning-physics-and-pure-mathematics-part-i-947abeb3a5dd/)
+
+> There are many examples in history where purely abstract mathematical
+> concepts eventually led to powerful applications way beyond the context in
+> which they were developed. This article is about one of those examples.
+
+-- Marco Tavora, FreeCodeCamp,
+[src](https://www.freecodecamp.org/news/connections-between-deep-learning-physics-and-pure-mathematics-part-i-947abeb3a5dd/)
 
 # Algorithms
 
@@ -132,24 +193,30 @@ works](http://neuralnetworksanddeeplearning.com/chap2.html)
 -- [Learning representations by back-propagating errors
 ](https://www.nature.com/articles/323533a0)
 
-# Observations
+# Experiments
 
-> Great minds see analogies between analogies.
+## Neural network from scratch
 
--- S. Banach
+> Let’s build a neural network from scratch. Our artificial brain should run on
+> just the core Haskell system.
 
-Analogies between objects take the form of the *properties* of those objects.
-Analogies between analogies concern the ways those properties are formed. What
-form the "ways" take? They can be likened to *functions* generating object with
-such properties, and functions have their *derivatives*. Analogies, then, take
-the form of derivatives!
+‒ Ben Lynn [^lynn_neural]
 
-Others talk about "mathematical beauty" or "beautiful symmetry" in mathematics.
-Is it not the exactly same thing they are all searching for?
+## Recognizing handwriting
 
-## Notation
+> It’s possible that the glass AI could eventually be used as a kind of
+> “biometric lock”, he says. Individual glass AIs could be used for specific
+> tasks, such as recognising a person’s face. “You will have lots of little,
+> inexpensive, disposable smart things that work under extremely tight energy,
+> bandwidth, and dollar budgets,” he says.
 
-Leibniz had as ideal the following.
+![](https://images.newscientist.com/wp-content/uploads/2019/07/08113114/205390-1.jpg)
+
+-- [^newscientist_ai_glass]
+
+[^newscientist_ai_glass]: https://www.newscientist.com/article/2208975-ai-made-from-a-sheet-of-glass-can-recognise-numbers-just-by-looking/
+
+Leibniz had the following idea:
 
 1. Create a ‘universal language’ in which all possible problems can be stated.
 2. Find a decision method to solve all the problems stated in the universal
@@ -158,7 +225,9 @@ Leibniz had as ideal the following.
 These are cited after the Introduction to Lambda Calculus available
 [here](https://www.researchgate.net/profile/Henk_hendrik_Barendregt/publication/215458960_Introduction_to_lambda_calculus/links/004635182bdcc3df8e000000/Introduction-to-lambda-calculus.pdf?origin=publication_detail).
 
-## Music
+When the problem of solving mathematical equations with neural networks
+
+## Synthesizing music
 
 A deep neural network model has been created by OpenAI. The model has been
 called MuseNet and is able to generate 4-minute musical compositions with 10
@@ -167,7 +236,7 @@ Beatles to Mozart [^openai_musenet].
 
 [^openai_musenet]: https://openai.com/blog/musenet/
 
-## Dreams
+## Synthesizing dream images
 
 Here, we explore different artifacts in the area of reproducing human
 cognition, together with their "creations" (that should be rather called
@@ -200,7 +269,30 @@ of instantaneous map and reduce operations? See [^map_reduce].
 
 [^map_reduce]: Chu, "Map-Reduce for Machine Learning on Multicore", 2006
 
-## Language models
+## Synthesizing faces
+
+![](img/deep_face_drawing_teaser.jpg)
+
+> Our DeepFaceDrawing system allows users with little training in drawing to
+> produce high-quality face images (Bottom) from rough or even incomplete
+> freehand sketches (Top). Note that our method faithfully respects user
+> intentions in input strokes, which serve more like soft constraints to guide
+> image synthesis.
+
+‒ Deep Fakes, [^deep_face_drawing]
+
+[^deep_face_drawing]: http://geometrylearning.com/DeepFaceDrawing/
+
+> DEEP FAKES are both exciting and frightening. Check out the latest deep fake
+> breakthrough that enables the creation of realistic faces using only simple
+> sketches.
+
+‒  Chadwick Turner, Emerging Tech Consultant [^deep_fakes]
+
+[^deep_fakes]: Chadwick Turner, LinkedIn post message, 7.06.2020,
+  [source](https://www.linkedin.com/posts/chadwickmturner_deepfakes-artificialintelligence-ai-activity-6675055186588913665-xXej)
+
+## Language translation
 
 > We’ve trained a large-scale unsupervised language model which generates
 > coherent paragraphs of text, achieves state-of-the-art performance on many
@@ -235,60 +327,7 @@ of instantaneous map and reduce operations? See [^map_reduce].
 
 # Architectures
 
-## Attention mechanisms
-
-1. OpenAI.com
-2. Attention Mechanism Memory Network by SkyMind [^skymind_attention]
-
-[^skymind_attention]: https://skymind.ai/wiki/attention-mechanism-memory-network
-
-## Recurrent NNs
-
-## Lottery ticket NNs
-
-# Sources
-
-1. NN-SVG by Alex Lenail [^lenail_nnsvg]
-
-[^lenail_nnsvg]: https://github.com/alexlenail/NN-SVG
-
-# Experiments
-
-## Recognizing handwriting
-
-> It’s possible that the glass AI could eventually be used as a kind of
-> “biometric lock”, he says. Individual glass AIs could be used for specific
-> tasks, such as recognising a person’s face. “You will have lots of little,
-> inexpensive, disposable smart things that work under extremely tight energy,
-> bandwidth, and dollar budgets,” he says.
-
-![](https://images.newscientist.com/wp-content/uploads/2019/07/08113114/205390-1.jpg)
-
--- [^newscientist_ai_glass]
-
-[^newscientist_ai_glass]: https://www.newscientist.com/article/2208975-ai-made-from-a-sheet-of-glass-can-recognise-numbers-just-by-looking/
-
-# Automatic generation
-
-# Understanding the quantum world
-
-> Imagine if all our scientific theories and models told us only about
-> averages: if the best weather forecasts could only give you the average daily
-> amount of rain expected over the next month, or if astronomers could only
-> predict the average time between solar eclipses.
->
-> In the early days of quantum mechanics, that seemed to be its inevitable
-> limitation: It was a probabilistic theory, telling us only what we will
-> observe on average if we collect records for many events or particles. To
-> Erwin Schrödinger, whose eponymous equation prescribes how quantum objects
-> behave, it was utterly meaningless to think about specific atoms or electrons
-> doing things in real time.
-
--- How "God does not play dice" after all [^quanta_trajectory_theory]
-
-[^quanta_trajectory_theory]: https://www.quantamagazine.org/how-quantum-trajectory-theory-lets-physicists-understand-whats-going-on-during-wave-function-collapse-20190703/
-
-# MRCNN
+## MRCNN
 
 > Deep convolutional neural networks (DCNNs) perform on par or better than
 > humans for image classification. Hence efforts have now shifted to more
@@ -297,54 +336,21 @@ of instantaneous map and reduce operations? See [^map_reduce].
 
 -- Philippe Burlina, [MRCNN](https://ieeexplore.ieee.org/abstract/document/7900179)
 
-# Analyzing a simple neural network
+The course from Fast.AI starts with Image classification. See [lesson
+1](https://course.fast.ai/videos/?lesson=1).
 
-> [The method of mathematical reason would] “…enable[s] one to infer results
-> about experiments that have not been performed. There is no logical reason
-> why the […] method should be possible at all, but one has found in practice
-> that it does work and meets with reasonable success. This must be ascribed to
-> some mathematical quality in Nature, a quality which the casual observer of
-> Nature would not suspect, but which nevertheless plays an important role in
-> Nature’s scheme.”
+## Attention mechanisms
 
--- Paul Dirac, 1939,
-[src](https://www.freecodecamp.org/news/connections-between-deep-learning-physics-and-pure-mathematics-part-i-947abeb3a5dd/)
+1. OpenAI.com
+2. Attention Mechanism Memory Network by SkyMind [^skymind_attention]
 
-> There are many examples in history where purely abstract mathematical
-> concepts eventually led to powerful applications way beyond the context in
-> which they were developed. This article is about one of those examples.
+## Recurrent NNs
 
--- Marco Tavora, FreeCodeCamp,
-[src](https://www.freecodecamp.org/news/connections-between-deep-learning-physics-and-pure-mathematics-part-i-947abeb3a5dd/)
+## Lottery ticket NNs
 
-We begin our analysis by establishing a simple neural net with the instructions
-from [Stanford Crypto](https://crypto.stanford.edu/~blynn/haskell/brain.html).
-The multi-line mode in GHC is activated with the command `:set +m`.
+# More information
 
-## Image synthesis
-
-![](img/deep_face_drawing_teaser.jpg)
-
-> Our DeepFaceDrawing system allows users with little training in drawing to
-> produce high-quality face images (Bottom) from rough or even incomplete
-> freehand sketches (Top). Note that our method faithfully respects user
-> intentions in input strokes, which serve more like soft constraints to guide
-> image synthesis.
-
-‒ Deep Fakes, [^deep_face_drawing]
-
-[^deep_face_drawing]: http://geometrylearning.com/DeepFaceDrawing/
-
-> DEEP FAKES are both exciting and frightening. Check out the latest deep fake
-> breakthrough that enables the creation of realistic faces using only simple
-> sketches.
-
-‒  Chadwick Turner, Emerging Tech Consultant [^deep_fakes]
-
-[^deep_fakes]: Chadwick Turner, LinkedIn post message, 7.06.2020,
-  [source](https://www.linkedin.com/posts/chadwickmturner_deepfakes-artificialintelligence-ai-activity-6675055186588913665-xXej)
-
-# Learning
+One of the best free courses in Deep Learning around is the one from Fast.AI.
 
 > You might be surprised by what you don’t need to become a top deep learning
 > practitioner. You need one year of coding experience, a GPU and appropriate
@@ -353,27 +359,17 @@ The multi-line mode in GHC is activated with the command `:set +m`.
 
 ‒ "Practical Deep Learning for Coders v. 3", Fast.AI course, [source](https://course.fast.ai/)
 
-## 1. Image classification
-
-See [Fast.AI lesson 1](https://course.fast.ai/videos/?lesson=1).
-
-## More information
-
-Download this book in: [PDF](http://mnna.kocielnik.pl/mnna.pdf), and
-[EPUB](http://mnna.kocielnik.pl/mnna.epub).
-
-For the manuscript and source code of this book, visit [this
-address](https://github.com/kocielnik/mnna). For source code accompanying this
-book, visit [this
-location](https://gitlab.com/kocielnik/neural-network-architectures).
-
-The wider context for this book is the currently private [Advanced Drone
-Technology
-Handbook](https://gitlab.com/kocielnik/advanced_drone_technology_handbook).
-
 # References
 
 1. HTML template from Stephen Diehl's "What I Wish I Had Known When Learning
    Haskell". (Thanks, Stephen!)
-2. Fast.AI Course in Deep Learning: [link](https://course.fast.ai/)
+2. NN-SVG Neural Network image generation tool by Alex Lenail [^lenail_nnsvg]
+3. Fast.AI Course in Deep Learning: [link](https://course.fast.ai/)
+4. Neural Network from Scratch (in Haskell), Stanford Crypto, Ben Lynn [^lynn_neural]
 
+# Links
+
+[^lenail_nnsvg]: https://github.com/alexlenail/NN-SVG
+[^lynn_neural]: https://crypto.stanford.edu/~blynn/haskell/brain.html
+[^quanta_trajectory_theory]: https://www.quantamagazine.org/how-quantum-trajectory-theory-lets-physicists-understand-whats-going-on-during-wave-function-collapse-20190703/
+[^skymind_attention]: https://skymind.ai/wiki/attention-mechanism-memory-network
