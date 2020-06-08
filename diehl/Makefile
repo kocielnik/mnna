@@ -23,7 +23,7 @@ all: $(HTML) $(PDF) $(EPUB)
 	| sed '/<extensions>/r extensions.html' > $@
 
 %.epub: %.md
-	(cat $(ETEMPLATE); < $<) \
+	(cat $(in); < $<) \
 	| $(PANDOC) -f $(IFORMAT) -t epub $(FLAGS) -o $@
 
 %.pdf: %.md

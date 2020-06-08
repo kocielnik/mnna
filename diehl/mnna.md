@@ -361,8 +361,6 @@ One of the best free courses in Deep Learning around is the one from Fast.AI.
 3. Fast.AI Course in Deep Learning: [link](https://course.fast.ai/)
 4. Neural Network from Scratch (in Haskell), Stanford Crypto, Ben Lynn [^lynn_neural]
 
-# Links
-
 [^lenail_nnsvg]: https://github.com/alexlenail/NN-SVG
 [^lynn_neural]: https://crypto.stanford.edu/~blynn/haskell/brain.html
 [^quanta_trajectory_theory]: https://www.quantamagazine.org/how-quantum-trajectory-theory-lets-physicists-understand-whats-going-on-during-wave-function-collapse-20190703/
