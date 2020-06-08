@@ -1,43 +1,8 @@
-% Modern Neural Network Architectures
+% Hightlights from Modern Neural Network Architectures
 % Patryk Kocielnik
-% March 2019
+% June 2020
 
-Patryk Kocielnik (<a class="author" href="https://kocielnik.pl">kocielnik.pl</a> )
-
-This is the first draft of this document.
-
-# From the publisher
-
-## License
-
-This code and text are dedicated to the public domain. You can copy, modify,
-distribute and perform the work, even for commercial purposes, all without
-asking permission.
-
-You may copy and paste any code here verbatim into your codebase, wiki, blog,
-book or Haskell musical production as you see fit. The Markdown and Haskell
-source is [available on Github](https://github.com/kocielnik/mnna). Pull
-requests are welcome for changes and additional content. This is a living
-document.
-
-## Pocket Versions
-
-**[PDF Version](http://mnna.kocielnik.pl/mnna.pdf)**
-**[EPUB Version](http://mnna.kocielnik.pl/mnna.epub)**
-
-## Changelog
-
-**0.1**
-
-* Base on presentation framework from Stephen Diehl. (Thanks, Stephen!)
-
-## Components
-
-The source of this book is [here](https://github.com/kocielnik/mnna).
-
-The code for this book is [here](https://gitlab.com/kocielnik/neural-network-architectures).
-
-The wider context for this book is the currently private [Advanced Drone Technology Handbook](https://gitlab.com/kocielnik/advanced_drone_technology_handbook).
+Draft version 0.7.0.
 
 # Book organization
 
@@ -50,8 +15,7 @@ to work, the output they generate, and comparative analysis of the output with
 what we may encounter in the everyday world, to which we will also refer to
 under the name "nature".
 
-Introduction
-==============
+# Introduction
 
 I am currently searching for a way to explore how human cognition and origins
 work, through empirical studies and quantitative comparison.
@@ -80,9 +44,9 @@ publically on-line under the address [^github_cbmm].
 
 -- [^mit_ocw_human-intelligence]
 
-[^mit_ocw_human-intelligence]: [The Human Intelligence Enterprise, Electrical
-Engineering and Computer Science faculty,
-MIT](http://ocw2.mit.edu/courses/electrical-engineering-and-computer-science/6-803-the-human-intelligence-enterprise-spring-2006/syllabus/)
+[^mit_ocw_human-intelligence]: The Human Intelligence Enterprise, Electrical
+  Engineering and Computer Science faculty, MIT,
+  [source](http://ocw2.mit.edu/courses/electrical-engineering-and-computer-science/6-803-the-human-intelligence-enterprise-spring-2006/syllabus/)
 
 > You should take 6.xxx if you want to learn about the enterprise of explaining
 > intelligence from a computational point of view. When you have finished the
@@ -110,46 +74,65 @@ Similar research around the globe
 
 -- The Human Intelligence Enterprise manifesto, MIT [^hie]
 
-[^hie]:[The Human Intelligence Enterprise,
-MIT](http://groups.csail.mit.edu/genesis/HIE/)
+[^hie]: The Human Intelligence Enterprise, MIT, [link](http://groups.csail.mit.edu/genesis/HIE/)
 
 > We are on the verge of discoveries about human intelligence that are as
 > important to understanding the way we think as the discovery of the structure
 > of DNA was to molecular biology. Such discoveries can be made only once in
 > the history of our species. We believe they can be made during the coming
-> decade. 
+> decade.
 
 -- The Human Intelligence Enterprise manifesto, MIT [^hie]
 
-Basic properties
-================
+# Basic properties
 
-> One of the most striking facts about neural networks is that they can compute any function at all. That is, suppose someone hands you some complicated, wiggly function, f(x), no matter what the function, there is guaranteed to be a neural network so that for every possible input, xx, the value f(x)f(x) (or some close approximation) is output from the network.
+> One of the most striking facts about neural networks is that they can compute
+> any function at all. That is, suppose someone hands you some complicated,
+> wiggly function, f(x), no matter what the function, there is guaranteed to be
+> a neural network so that for every possible input, xx, the value f(x)f(x) (or
+> some close approximation) is output from the network.
 
--- On the versatility of neural network models, Michael Nielsen, [A visual proof that neural nets can compute any function](http://neuralnetworksanddeeplearning.com/chap4.html)
+-- On the versatility of neural network models, Michael Nielsen, [A visual
+proof that neural nets can compute any
+function](http://neuralnetworksanddeeplearning.com/chap4.html)
 
-Algorithms
-==========
+# Algorithms
 
 ## Bayesian filtering
 
-> Bayesian filter is one of the fundamental approach to estimate the distribution in a process where there is incoming measurements. It used to be widely used in localization problems in robotics.
+> Bayesian filter is one of the fundamental approach to estimate the
+> distribution in a process where there is incoming measurements. It used to be
+> widely used in localization problems in robotics.
 
--- https://leimao.github.io/article/Introduction-to-Bayesian-Filter/
+-- [^bayesian_filtering]
+
+[^bayesian_filtering]: https://leimao.github.io/article/Introduction-to-Bayesian-Filter/
 
 ## Back-propagation
 
-> The backpropagation algorithm was originally introduced in the 1970s, but its importance wasn't fully appreciated until a famous 1986 paper by David Rumelhart, Geoffrey Hinton, and Ronald Williams.
+> The backpropagation algorithm was originally introduced in the 1970s, but its
+> importance wasn't fully appreciated until a famous 1986 paper by David
+> Rumelhart, Geoffrey Hinton, and Ronald Williams.
 
--- On the origins of the back-propagation algorithm, Michael Nielsen, [How the backpropagation algorithm works](http://neuralnetworksanddeeplearning.com/chap2.html)
+-- On the origins of the back-propagation algorithm, Michael Nielsen, [How the
+backpropagation algorithm
+works](http://neuralnetworksanddeeplearning.com/chap2.html)
 
-> We describe a new learning procedure, back-propagation, for networks of neurone-like units. The procedure repeatedly adjusts the weights of the connections in the network so as to minimize a measure of the difference between the actual output vector of the net and the desired output vector. As a result of the weight adjustments, internal ‘hidden’ units which are not part of the input or output come to represent important features of the task domain, and the regularities in the task are captured by the interactions of these units. The ability to create useful new features distinguishes back-propagation from earlier, simpler methods such as the perceptron-convergence procedure.
+> We describe a new learning procedure, back-propagation, for networks of
+> neurone-like units. The procedure repeatedly adjusts the weights of the
+> connections in the network so as to minimize a measure of the difference
+> between the actual output vector of the net and the desired output vector. As
+> a result of the weight adjustments, internal ‘hidden’ units which are not
+> part of the input or output come to represent important features of the task
+> domain, and the regularities in the task are captured by the interactions of
+> these units. The ability to create useful new features distinguishes
+> back-propagation from earlier, simpler methods such as the
+> perceptron-convergence procedure.
 
 -- [Learning representations by back-propagating errors
 ](https://www.nature.com/articles/323533a0)
 
-Observations
-============
+# Observations
 
 > Great minds see analogies between analogies.
 
@@ -163,6 +146,26 @@ the form of derivatives!
 
 Others talk about "mathematical beauty" or "beautiful symmetry" in mathematics.
 Is it not the exactly same thing they are all searching for?
+
+## Notation
+
+Leibniz had as ideal the following.
+
+1. Create a ‘universal language’ in which all possible problems can be stated.
+2. Find a decision method to solve all the problems stated in the universal
+   language.
+
+These are cited after the Introduction to Lambda Calculus available
+[here](https://www.researchgate.net/profile/Henk_hendrik_Barendregt/publication/215458960_Introduction_to_lambda_calculus/links/004635182bdcc3df8e000000/Introduction-to-lambda-calculus.pdf?origin=publication_detail).
+
+## Music
+
+A deep neural network model has been created by OpenAI. The model has been
+called MuseNet and is able to generate 4-minute musical compositions with 10
+different instruments. MuseNet can imitate the styles from country to the
+Beatles to Mozart [^openai_musenet].
+
+[^openai_musenet]: https://openai.com/blog/musenet/
 
 ## Dreams
 
@@ -185,30 +188,6 @@ The original technical report of Turing is available
 -- Christopher Olah,
 [blog](https://colah.github.io/posts/2015-09-NN-Types-FP/), 2015
 
-Notation
---------
-
-Leibniz had as ideal the following.
-
-1. Create a ‘universal language’ in which all possible problems can be stated.
-2. Find a decision method to solve all the problems stated in the universal
-   language.
-
-These are cited after the Introduction to Lambda Calculus available
-[here](https://www.researchgate.net/profile/Henk_hendrik_Barendregt/publication/215458960_Introduction_to_lambda_calculus/links/004635182bdcc3df8e000000/Introduction-to-lambda-calculus.pdf?origin=publication_detail).
-
-Music -----
-
-A deep neural network model has been created by OpenAI. The model has been
-called MuseNet and is able to generate 4-minute musical compositions with 10
-different instruments. MuseNet can imitate the styles from country to the
-Beatles to Mozart [^openai_musenet].
-
-[^openai_musenet]: https://openai.com/blog/musenet/
-
-Dreams
-------
-
 Google Deep Dream Project, a whole gallery can be found
 [here](https://photos.google.com/share/AF1QipPX0SCl7OzWilt9LnuQliattX4OUCj_8EP65_cTVnBmS1jnYgsGQAieQUc1VQWdgQ?key=aVBxWjhwSzg2RjJWLWRuVFBBZEN1d205bUdEMnhB).
 
@@ -230,9 +209,11 @@ of instantaneous map and reduce operations? See [^map_reduce].
 > task-specific training.
 >
 > Our model, called GPT-2 (a successor to GPT), was trained simply to predict
-> the next word in 40GB of Internet text. 
+> the next word in 40GB of Internet text.
 
--- https://openai.com/blog/better-language-models/
+-- [^better_models]
+
+[^better_models]: https://openai.com/blog/better-language-models/
 
 > However, Pérez also pointed out that it is likely that the only way of
 > knowing for sure if unicorns are indeed the descendants of a lost alien race
@@ -240,7 +221,7 @@ of instantaneous map and reduce operations? See [^map_reduce].
 > well, which I believe is a sign of evolution, or at least a change in social
 > organization,” said the scientist.
 
--- Machine-generated output, https://openai.com/blog/better-language-models/
+-- Machine-generated output [^better_models]
 
 > As the above samples show, our model is capable of generating samples from a
 > variety of prompts that feel close to human quality and show coherence over a
@@ -250,14 +231,16 @@ of instantaneous map and reduce operations? See [^map_reduce].
 > Exploring these types of weaknesses of language models is an active area of
 > research in the natural language processing community.
 
--- On the results of research, https://openai.com/blog/better-language-models/
+-- On the results of research, [^better_models]
 
 # Architectures
 
 ## Attention mechanisms
 
 1. OpenAI.com
-2. https://skymind.ai/wiki/attention-mechanism-memory-network
+2. Attention Mechanism Memory Network by SkyMind [^skymind_attention]
+
+[^skymind_attention]: https://skymind.ai/wiki/attention-mechanism-memory-network
 
 ## Recurrent NNs
 
@@ -265,14 +248,13 @@ of instantaneous map and reduce operations? See [^map_reduce].
 
 # Sources
 
-1. https://github.com/alexlenail/NN-SVG
+1. NN-SVG by Alex Lenail [^lenail_nnsvg]
 
-# References
+[^lenail_nnsvg]: https://github.com/alexlenail/NN-SVG
 
-[fastai]: https://course.fast.ai/
 # Experiments
 
-## Can a neural network recognize handwriting?
+## Recognizing handwriting
 
 > It’s possible that the glass AI could eventually be used as a kind of
 > “biometric lock”, he says. Individual glass AIs could be used for specific
@@ -282,10 +264,11 @@ of instantaneous map and reduce operations? See [^map_reduce].
 
 ![](https://images.newscientist.com/wp-content/uploads/2019/07/08113114/205390-1.jpg)
 
---
-https://www.newscientist.com/article/2208975-ai-made-from-a-sheet-of-glass-can-recognise-numbers-just-by-looking/
+-- [^newscientist_ai_glass]
 
-# Automatic generation 
+[^newscientist_ai_glass]: https://www.newscientist.com/article/2208975-ai-made-from-a-sheet-of-glass-can-recognise-numbers-just-by-looking/
+
+# Automatic generation
 
 # Understanding the quantum world
 
@@ -301,33 +284,96 @@ https://www.newscientist.com/article/2208975-ai-made-from-a-sheet-of-glass-can-r
 > behave, it was utterly meaningless to think about specific atoms or electrons
 > doing things in real time.
 
--- How "God does not play dice" after all,
-https://www.quantamagazine.org/how-quantum-trajectory-theory-lets-physicists-understand-whats-going-on-during-wave-function-collapse-20190703/
+-- How "God does not play dice" after all [^quanta_trajectory_theory]
+
+[^quanta_trajectory_theory]: https://www.quantamagazine.org/how-quantum-trajectory-theory-lets-physicists-understand-whats-going-on-during-wave-function-collapse-20190703/
 
 # MRCNN
 
-> Deep convolutional neural networks (DCNNs) perform on par or better than humans for image classification. Hence efforts have now shifted to more challenging tasks such as object detection and classification in images, video or RGBD.
+> Deep convolutional neural networks (DCNNs) perform on par or better than
+> humans for image classification. Hence efforts have now shifted to more
+> challenging tasks such as object detection and classification in images,
+> video or RGBD.
 
 -- Philippe Burlina, [MRCNN](https://ieeexplore.ieee.org/abstract/document/7900179)
 
 # Analyzing a simple neural network
 
-> [The method of mathematical reason would] “…enable[s] one to infer results about experiments that have not been performed. There is no logical reason why the […] method should be possible at all, but one has found in practice that it does work and meets with reasonable success. This must be ascribed to some mathematical quality in Nature, a quality which the casual observer of Nature would not suspect, but which nevertheless plays an important role in Nature’s scheme.”
+> [The method of mathematical reason would] “…enable[s] one to infer results
+> about experiments that have not been performed. There is no logical reason
+> why the […] method should be possible at all, but one has found in practice
+> that it does work and meets with reasonable success. This must be ascribed to
+> some mathematical quality in Nature, a quality which the casual observer of
+> Nature would not suspect, but which nevertheless plays an important role in
+> Nature’s scheme.”
 
--- Paul Dirac, 1939, [src](https://www.freecodecamp.org/news/connections-between-deep-learning-physics-and-pure-mathematics-part-i-947abeb3a5dd/)
+-- Paul Dirac, 1939,
+[src](https://www.freecodecamp.org/news/connections-between-deep-learning-physics-and-pure-mathematics-part-i-947abeb3a5dd/)
 
-> There are many examples in history where purely abstract mathematical concepts eventually led to powerful applications way beyond the context in which they were developed. This article is about one of those examples.
+> There are many examples in history where purely abstract mathematical
+> concepts eventually led to powerful applications way beyond the context in
+> which they were developed. This article is about one of those examples.
 
--- Marco Tavora, FreeCodeCamp, [src](https://www.freecodecamp.org/news/connections-between-deep-learning-physics-and-pure-mathematics-part-i-947abeb3a5dd/)
+-- Marco Tavora, FreeCodeCamp,
+[src](https://www.freecodecamp.org/news/connections-between-deep-learning-physics-and-pure-mathematics-part-i-947abeb3a5dd/)
 
-We begin our analysis by establishing a simple neural net with the instructions from [Stanford Crypto](https://crypto.stanford.edu/~blynn/haskell/brain.html). The multi-line mode in GHC is activated with the command `:set +m`.
+We begin our analysis by establishing a simple neural net with the instructions
+from [Stanford Crypto](https://crypto.stanford.edu/~blynn/haskell/brain.html).
+The multi-line mode in GHC is activated with the command `:set +m`.
+
+## Image synthesis
+
+![](img/deep_face_drawing_teaser.jpg)
+
+> Our DeepFaceDrawing system allows users with little training in drawing to
+> produce high-quality face images (Bottom) from rough or even incomplete
+> freehand sketches (Top). Note that our method faithfully respects user
+> intentions in input strokes, which serve more like soft constraints to guide
+> image synthesis.
+
+‒ Deep Fakes, [^deep_face_drawing]
+
+[^deep_face_drawing]: http://geometrylearning.com/DeepFaceDrawing/
+
+> DEEP FAKES are both exciting and frightening. Check out the latest deep fake
+> breakthrough that enables the creation of realistic faces using only simple
+> sketches.
+
+‒  Chadwick Turner, Emerging Tech Consultant [^deep_fakes]
+
+[^deep_fakes]: Chadwick Turner, LinkedIn post message, 7.06.2020,
+  [source](https://www.linkedin.com/posts/chadwickmturner_deepfakes-artificialintelligence-ai-activity-6675055186588913665-xXej)
 
 # Learning
 
-> You might be surprised by what you don’t need to become a top deep learning practitioner. You need one year of coding experience, a GPU and appropriate software (see below), and that’s it. You don’t need much data, you don’t need university-level math, and you don’t need a giant data center.
+> You might be surprised by what you don’t need to become a top deep learning
+> practitioner. You need one year of coding experience, a GPU and appropriate
+> software (see below), and that’s it. You don’t need much data, you don’t need
+> university-level math, and you don’t need a giant data center.
 
 ‒ "Practical Deep Learning for Coders v. 3", Fast.AI course, [source](https://course.fast.ai/)
 
 ## 1. Image classification
 
 See [Fast.AI lesson 1](https://course.fast.ai/videos/?lesson=1).
+
+## More information
+
+Download this book in: [PDF](http://mnna.kocielnik.pl/mnna.pdf), and
+[EPUB](http://mnna.kocielnik.pl/mnna.epub).
+
+For the manuscript and source code of this book, visit [this
+address](https://github.com/kocielnik/mnna). For source code accompanying this
+book, visit [this
+location](https://gitlab.com/kocielnik/neural-network-architectures).
+
+The wider context for this book is the currently private [Advanced Drone
+Technology
+Handbook](https://gitlab.com/kocielnik/advanced_drone_technology_handbook).
+
+# References
+
+1. HTML template from Stephen Diehl's "What I Wish I Had Known When Learning
+   Haskell". (Thanks, Stephen!)
+2. Fast.AI Course in Deep Learning: [link](https://course.fast.ai/)
+
