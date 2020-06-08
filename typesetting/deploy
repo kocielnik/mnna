@@ -1,24 +1,20 @@
 remote=notes
 srv_dir=/var/www/html/mnna
+user=ubuntu
 
-rsync css/style.css $remote:~
-ssh $remote "sudo mv style.css ${srv_dir}/css/style.css"
+setup_remote_dir() {
+    ssh $remote "sudo mkdir -p $srv_dir && sudo chown -R $user:$user $srv_dir"
+}
 
-rsync css/layout.css $remote:~
-ssh $remote "sudo mv layout.css ${srv_dir}/css/layout.css"
+rsync -r css/style.css ../img css/layout.css js/nav.js mnna.html mnna.pdf \
+    mnna.epub \
+    $remote:~
 
-rsync js/nav.js $remote:~
-ssh $remote "sudo mv nav.js ${srv_dir}/nav.js"
-
-rsync mnna.html $remote:~
-ssh $remote "sudo mv mnna.html ${srv_dir}/index.html"
-
-rsync mnna.pdf $remote:~
-ssh $remote "sudo mv mnna.pdf ${srv_dir}/mnna.pdf"
-
-rsync mnna.epub $remote:~
-ssh $remote "sudo mv mnna.epub ${srv_dir}/mnna.epub"
-
-rsync -r ../img $remote:~
-ssh $remote "sudo rm -rf ${srv_dir}/img"
-ssh $remote "sudo mv img ${srv_dir}/"
+ssh $remote "mv style.css ${srv_dir}/css/style.css \
+    && mv layout.css ${srv_dir}/css/layout.css \
+    && mv nav.js ${srv_dir}/nav.js \
+    && mv mnna.html ${srv_dir}/index.html \
+    && mv mnna.pdf ${srv_dir}/mnna.pdf \
+    && mv mnna.epub ${srv_dir}/mnna.epub \
+    && rm -rf ${srv_dir}/img \
+    && mv img ${srv_dir}/"
