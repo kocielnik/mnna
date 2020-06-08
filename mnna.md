@@ -357,11 +357,13 @@ One of the best free courses in Deep Learning around is the one from Fast.AI.
 
 1. HTML template from Stephen Diehl's "What I Wish I Had Known When Learning
    Haskell". (Thanks, Stephen!)
-2. NN-SVG Neural Network image generation tool by Alex Lenail [^lenail_nnsvg]
-3. Fast.AI Course in Deep Learning: [link](https://course.fast.ai/)
-4. Neural Network from Scratch (in Haskell), Stanford Crypto, Ben Lynn [^lynn_neural]
+2. Neural Network icon by courtesy of Wikimedia Commons, author: Offnfopt [^nn_icon]
+3. NN-SVG Neural Network image generation tool by Alex Lenail [^lenail_nnsvg]
+4. Fast.AI Course in Deep Learning: [link](https://course.fast.ai/)
+5. Neural Network from Scratch (in Haskell), Stanford Crypto, Ben Lynn [^lynn_neural]
 
 [^lenail_nnsvg]: https://github.com/alexlenail/NN-SVG
 [^lynn_neural]: https://crypto.stanford.edu/~blynn/haskell/brain.html
 [^quanta_trajectory_theory]: https://www.quantamagazine.org/how-quantum-trajectory-theory-lets-physicists-understand-whats-going-on-during-wave-function-collapse-20190703/
 [^skymind_attention]: https://skymind.ai/wiki/attention-mechanism-memory-network
+[^nn_icon]: https://commons.wikimedia.org/wiki/File:Multi-Layer_Neural_Network-Vector-Blank.svg
