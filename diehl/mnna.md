@@ -2,21 +2,15 @@
 % Patryk Kocielnik
 % June 2020
 
-Draft version 0.7.0.
+# Available formats and code
 
-# Accompanying resources and available formats
-
-Download this book in: [PDF](http://mnna.kocielnik.pl/mnna.pdf), and
+Feel free to download this book in [PDF](http://mnna.kocielnik.pl/mnna.pdf) or
 [EPUB](http://mnna.kocielnik.pl/mnna.epub).
 
-For the manuscript and source code of this book, visit [this
-address](https://github.com/kocielnik/mnna). For source code accompanying this
-book, visit [this
-location](https://gitlab.com/kocielnik/neural-network-architectures).
+See the source code accompanying this book at [this
+URL](https://gitlab.com/kocielnik/neural-network-architectures).
 
-The wider context for this book is the currently private [Advanced Drone
-Technology
-Handbook](https://gitlab.com/kocielnik/advanced_drone_technology_handbook).
+Review the manuscript [here](https://github.com/kocielnik/mnna).
 
 # Goal
 
