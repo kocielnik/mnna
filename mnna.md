@@ -263,6 +263,12 @@ of instantaneous map and reduce operations? See [^map_reduce].
 
 [^map_reduce]: Chu, "Map-Reduce for Machine Learning on Multicore", 2006
 
+## Recognizing faces
+
+![](https://miroslawmamczur.pl/wp-content/uploads/2020/06/3.mp4)
+
+https://miroslawmamczur.pl/wykrywanie-twarzy-real-time-w-15-liniach-kodu-w-python/
+
 ## Synthesizing faces
 
 ![](img/deep_face_drawing_teaser.jpg)
